@@ -2,11 +2,15 @@
 - Button colors and appearance (width, border, etc)
 - Wrap a div arount the HTML, add a max width */
 
+* {
+   box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    background: rgb(106, 162, 207);
+    background: rgb(122, 188, 241);
 }
 
 h1 {
@@ -22,9 +26,9 @@ h2 {
 
 button {
     border: none;
-    padding: 20px 0;
+    padding: 10px 0;
     color: black;
-    width: 100px;
+    width: 150px;
     margin-bottom: 5px;
     border-radius: 10px;
 }
