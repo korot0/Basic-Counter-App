@@ -1,0 +1,44 @@
+/* - Font (from list)
+- Button colors and appearance (width, border, etc)
+- Wrap a div arount the HTML, add a max width */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(106, 162, 207);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 20px 0;
+    color: black;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#plus-btn {
+    background: rgb(99, 255, 99);
+}
+
+#minus-btn {
+    background: rgb(255, 98, 98);
+}
+
+#save-btn {
+    background: rgb(85, 117, 255);
+    display: block;
+    margin: auto;
+}
